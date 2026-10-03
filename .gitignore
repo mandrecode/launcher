@@ -1,0 +1,21 @@
+# Developer-local configuration and outputs
+.DS_Store
+.idea/
+local.properties
+.gradle/
+**/build/
+.cxx/
+*.iml
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+captures/
+private-evidence/

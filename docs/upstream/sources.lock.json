@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "candidate-not-imported",
+  "android_release": "17",
+  "release_tag": "android-17.0.0_r1",
+  "sources": [
+    {
+      "name": "launcher3",
+      "remote": "https://android.googlesource.com/platform/packages/apps/Launcher3",
+      "revision": "c612e6ece389f21c40f8cb9cd9a4b44239f00009",
+      "archive_sha256": null,
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "systemui-support",
+      "remote": "https://android.googlesource.com/platform/frameworks/libs/systemui",
+      "revision": "11e04f60f563aed48e4ec080bd7bde06bae1b2f3",
+      "archive_sha256": null,
+      "license": "Apache-2.0"
+    }
+  ]
+}

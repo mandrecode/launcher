@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "template-not-evidence",
+  "launcher3_tag": "android-17.0.0_r1",
+  "launcher3_revision": "c612e6ece389f21c40f8cb9cd9a4b44239f00009",
+  "android_release": "17",
+  "device_model": null,
+  "pixel_os_build": null,
+  "api_level": null,
+  "sdk_minor": null,
+  "pixel_launcher_version": null,
+  "google_app_version": null,
+  "density_dpi": null,
+  "font_scale": null,
+  "grid": null,
+  "navigation_mode": null,
+  "refresh_rate_hz": null,
+  "locale": null,
+  "theme": null,
+  "wallpaper_fixture": null,
+  "capture_date": null,
+  "journeys": []
+}

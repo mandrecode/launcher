@@ -1,0 +1,21 @@
+name: Defect
+description: Reproducible launcher behavior or recovery failure
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and device / OS / navigation / app version
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Do not include calendar contents, private app data, credentials or personal screenshots.

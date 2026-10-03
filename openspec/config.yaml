@@ -1,0 +1,35 @@
+schema: spec-driven
+context: |
+  Mandre Launcher is a public standalone Android Home application. Product promise:
+  a Pixel-like launcher experience with system-driven Modes and QoL features.
+  Phase 0 establishes contracts and governance only; no Android app/build/vendor source yet.
+  Architecture: one pure Kotlin :domain module with capability packages; feature UI
+  modules use immutable MVI contracts, thin ViewModels and Screen/Content separation.
+  Launcher3 native workspace/model/widgets remain native behind one adapter. engine:api
+  exposes neutral Kotlin integration contracts, never platform or persistence objects.
+  The initial baseline is Android 17 non-Quickstep, with a same-release Pixel reference.
+  After Phase 1, a bounded Phase 1.5 native/hybrid/Compose presentation evaluation
+  and evidence-backed presentation ADR precede Phase 2; no automatic rewrite/adoption.
+  Minimum SDK direction is API 31, pending standalone compatibility verification.
+  API 31–34 owns profile activation with a default-visible, hideable pill and permanent Home-menu entry.
+  API 35+ follows effective owned Android rule state; optional DND requests are not effective-state evidence.
+  Only app-owned AutomaticZenRules are observable; never promise other-owner Mode import.
+  Vendor sources will be pristine immutable imports plus ordered compatibility/hook/presentation patches.
+  Never commit without explicit human permission. Never merge without human authorization.
+  Phases use integration branches and small stacked PRs, ending in one squash commit on main.
+  All Phase 0 ADRs are accepted; actual commit/push authorization remains separate.
+  Branches use conventional work types, never agents. Commit/PR titles use Conventional Commits.
+  Phase 0 bootstrap needs explicit commit/push permission before creating the initial main commit.
+  Documentation claims distinguish proposed choices, inspected evidence and verified behavior.
+  Verify Phase 0 with python3 scripts/check_foundation.py and openspec validate --all --strict.
+rules:
+  proposal:
+    - Name the capability and phase; link real issues if present, never invent IDs.
+    - State scope boundaries and acceptance evidence.
+  design:
+    - Describe ownership, dependency direction, platform limits and failure/recovery behavior.
+    - Separate native database transactions from system service side effects.
+    - Keep proposed decisions distinct from accepted user decisions.
+  tasks:
+    - Separate preparation and verification from human review and authorized publication.
+    - Never mark required remote/device checks complete without evidence.

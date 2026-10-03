@@ -1,0 +1,68 @@
+{
+  "inspected_date": "2026-10-04",
+  "source": "GitHub REST API",
+  "repository": "mandrecode/launcher",
+  "settings": {
+    "default_branch": "main",
+    "visibility": "public",
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_rebase_merge": false,
+    "delete_branch_on_merge": true,
+    "allow_auto_merge": false,
+    "allow_update_branch": false,
+    "squash_merge_commit_title": "PR_TITLE",
+    "squash_merge_commit_message": "BLANK",
+    "actions": {
+      "enabled": true,
+      "allowed_actions": "all",
+      "sha_pinning_required": false
+    },
+    "workflow_permissions": {
+      "default_workflow_permissions": "read",
+      "can_approve_pull_request_reviews": false
+    },
+    "fork_approval": {
+      "approval_policy": "first_time_contributors_new_to_github"
+    },
+    "rulesets": [
+      {
+        "id": 24433922,
+        "name": "protect-main",
+        "target": "branch",
+        "source_type": "Repository",
+        "source": "mandrecode/launcher",
+        "enforcement": "active",
+        "conditions": {
+          "ref_name": {
+            "exclude": [],
+            "include": [
+              "refs/heads/main"
+            ]
+          }
+        },
+        "rules": [
+          {
+            "type": "deletion"
+          },
+          {
+            "type": "non_fast_forward"
+          }
+        ],
+        "node_id": "RRS_lACqUmVwb3NpdG9yec5Tqrs9zgF01QI",
+        "created_at": "2026-10-04T01:05:58.164+02:00",
+        "updated_at": "2026-10-04T01:05:58.204+02:00",
+        "bypass_actors": [],
+        "current_user_can_bypass": "never",
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/mandrecode/launcher/rulesets/24433922"
+          },
+          "html": {
+            "href": "https://github.com/mandrecode/launcher/rules/24433922"
+          }
+        }
+      }
+    ]
+  }
+}

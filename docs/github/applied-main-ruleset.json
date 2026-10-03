@@ -1,0 +1,22 @@
+{
+  "bypass_actors": [],
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "refs/heads/main"
+      ]
+    }
+  },
+  "enforcement": "active",
+  "id": 24433922,
+  "name": "protect-main",
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ]
+}

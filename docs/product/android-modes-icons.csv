@@ -1,0 +1,41 @@
+picker_order,description,exact_AOSP_drawable,Material_Symbol_candidate_not_identical,exact_asset_source
+1,Briefcase,ic_zen_mode_icon_work,work,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_work.xml
+2,Classical building,ic_zen_mode_icon_classical_building,account_balance,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_classical_building.xml
+3,Apartment building,ic_zen_mode_icon_apartment_building,apartment,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_apartment_building.xml
+4,Speech bubble,ic_zen_mode_icon_speech_bubble,chat,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_speech_bubble.xml
+5,Group of people,ic_zen_mode_icon_group_of_people,groups,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_group_of_people.xml
+6,Lightbulb,ic_zen_mode_icon_lightbulb,lightbulb,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_lightbulb.xml
+7,Calendar,ic_zen_mode_type_schedule_calendar,calendar_month,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_schedule_calendar.xml
+8,Do Not Disturb,ic_zen_mode_type_special_dnd,do_not_disturb_on,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_special_dnd.xml
+9,Person running,ic_zen_mode_icon_running,directions_run,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_running.xml
+10,Golf,ic_zen_mode_icon_golf,sports_golf,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_golf.xml
+11,Gym dumbbell,ic_zen_mode_icon_gym,fitness_center,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_gym.xml
+12,Swimming,ic_zen_mode_icon_swimming,pool,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_swimming.xml
+13,Person hiking,ic_zen_mode_icon_hiking,hiking,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_hiking.xml
+14,Person throwing ball,ic_zen_mode_icon_ball_sports,sports_handball,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_ball_sports.xml
+15,Person kicking,ic_zen_mode_icon_martial_arts,sports_martial_arts,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_martial_arts.xml
+16,Game controller,ic_zen_mode_icon_gaming,sports_esports,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_gaming.xml
+17,Artist color palette,ic_zen_mode_icon_palette,palette,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_palette.xml
+18,Snowflake,ic_zen_mode_icon_snowflake,ac_unit,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_snowflake.xml
+19,Beach umbrella,ic_zen_mode_icon_beach,beach_access,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_beach.xml
+20,Workshop tools,ic_zen_mode_icon_workshop,handyman,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_workshop.xml
+21,Piano,ic_zen_mode_icon_piano,piano,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_piano.xml
+22,Film reel,ic_zen_mode_type_theater,movie_filter,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_theater.xml
+23,Book,ic_zen_mode_icon_book,menu_book,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_book.xml
+24,Lotus flower,ic_zen_mode_icon_lotus_flower,spa,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_lotus_flower.xml
+25,Person's mind,ic_zen_mode_type_immersive,psychology,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_immersive.xml
+26,Headphones,ic_zen_mode_icon_headphones,headphones,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_headphones.xml
+27,TV,ic_zen_mode_icon_tv,tv,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_tv.xml
+28,Train,ic_zen_mode_icon_train,train,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_train.xml
+29,Car,ic_zen_mode_type_driving,directions_car,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_driving.xml
+30,Fork and knife,ic_zen_mode_icon_fork_and_knife,restaurant,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_fork_and_knife.xml
+31,Shopping cart,ic_zen_mode_icon_shopping_cart,shopping_cart,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_shopping_cart.xml
+32,Child,ic_zen_mode_icon_child,child_care,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_child.xml
+33,Animal paw,ic_zen_mode_icon_animal_paw,pets,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_animal_paw.xml
+34,Star badge,ic_zen_mode_icon_star_badge,workspace_premium,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_star_badge.xml
+35,Two people,ic_zen_mode_type_managed,supervisor_account,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_managed.xml
+36,Star,ic_zen_mode_type_other,star,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_other.xml
+37,Heart,ic_zen_mode_icon_heart,favorite,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_heart.xml
+38,House,ic_zen_mode_icon_house,home,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_icon_house.xml
+39,Half-moon,ic_zen_mode_type_bedtime,bedtime,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_bedtime.xml
+40,Clock,ic_zen_mode_type_schedule_time,schedule,https://android.googlesource.com/platform/frameworks/base/+/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/res/res/drawable/ic_zen_mode_type_schedule_time.xml

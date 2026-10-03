@@ -1,0 +1,22 @@
+name: Capability or work package
+description: A focused, reviewable product or engineering slice
+title: "[Capability] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Problem and intended outcome
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Phase, capability IDs and scope boundaries
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Acceptance evidence and platform limits
+    validations:
+      required: true
