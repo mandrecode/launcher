@@ -1,7 +1,8 @@
 # product-foundation Specification
 
 ## Purpose
-TBD - created by archiving change production-foundation. Update Purpose after archive.
+Define Mandre Launcher’s standalone engine ownership, platform and Modes boundaries, source provenance, same-release Pixel reference policy, gesture quality gates and presentation evaluation before implementation.
+
 ## Requirements
 ### Requirement: Standalone engine ownership
 The product foundation SHALL document a non-Quickstep Launcher3 baseline, a single pure Kotlin domain module and one native adapter boundary without claiming privileged system integration.

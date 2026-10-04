@@ -47,11 +47,55 @@
           },
           {
             "type": "non_fast_forward"
+          },
+          {
+            "type": "pull_request",
+            "parameters": {
+              "required_approving_review_count": 0,
+              "dismiss_stale_reviews_on_push": false,
+              "required_reviewers": [],
+              "require_code_owner_review": false,
+              "dismissal_restriction": {
+                "enabled": false,
+                "allowed_actors": []
+              },
+              "require_last_push_approval": false,
+              "required_review_thread_resolution": true,
+              "require_extra_approval_for_unattributed_changes": true,
+              "allowed_merge_methods": [
+                "squash"
+              ]
+            }
+          },
+          {
+            "type": "required_status_checks",
+            "parameters": {
+              "strict_required_status_checks_policy": true,
+              "do_not_enforce_on_create": false,
+              "required_status_checks": [
+                {
+                  "context": "📚 Foundation"
+                },
+                {
+                  "context": "📝 OpenSpec"
+                },
+                {
+                  "context": "✅ CI Status"
+                }
+              ]
+            }
+          },
+          {
+            "type": "copilot_code_review",
+            "parameters": {
+              "review_on_push": true,
+              "review_draft_pull_requests": false
+            }
           }
         ],
         "node_id": "RRS_lACqUmVwb3NpdG9yec5Tqrs9zgF01QI",
         "created_at": "2026-10-04T01:05:58.164+02:00",
-        "updated_at": "2026-10-04T01:05:58.204+02:00",
+        "updated_at": "2026-10-04T01:46:37.229+02:00",
         "bypass_actors": [],
         "current_user_can_bypass": "never",
         "_links": {

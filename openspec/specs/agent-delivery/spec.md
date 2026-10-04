@@ -1,7 +1,8 @@
 # agent-delivery Specification
 
 ## Purpose
-TBD - created by archiving change production-foundation. Update Purpose after archive.
+Define the human authorization, conventional naming, phase integration, executable verification and evidence-backed repository policies that govern agent-driven delivery of Mandre Launcher.
+
 ## Requirements
 ### Requirement: Explicit human commit authorization
 Agents MUST obtain explicit human permission before creating any commit, including foundation and intermediate stack commits, and MUST NOT treat starting a phase as authorization to commit.
