@@ -24,4 +24,4 @@ CI runs for PRs against any base, including stack/integration branches. It conta
 
 ## Copilot execution evidence
 
-Copilot submitted a [review of the closeout commit](https://github.com/mandrecode/launcher/pull/2#pullrequestreview-5404732735) (`bfb495b`) and a [review after the follow-up push](https://github.com/mandrecode/launcher/pull/2#pullrequestreview-5404761817) (`81d5dde`) on 2026-10-04. This demonstrates review execution for this repository and PR; it does not guarantee future availability or entitlement. The initial activation evidence in the Phase 0 review packet predates these reviews.
+Copilot submitted a [review of the closeout commit](https://github.com/mandrecode/launcher/pull/2#pullrequestreview-5404732735) (`bfb495b`) and a [review after the follow-up push](https://github.com/mandrecode/launcher/pull/2#pullrequestreview-5404773338) (`81d5dde`) on 2026-10-04. This demonstrates review execution for this repository and PR; it does not guarantee future availability or entitlement. The initial activation evidence in the Phase 0 review packet predates these reviews.
