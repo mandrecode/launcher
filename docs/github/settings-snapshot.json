@@ -64,5 +64,14 @@
         }
       }
     ]
+  },
+  "publication": {
+    "commit": "b151c36b280d5583dbc80e41ed95c9efdac4819e",
+    "default_branch": "main",
+    "ci_run": 37162805759,
+    "ci_conclusion": "success",
+    "ruleset_id": 24433922,
+    "ruleset_enforcement": "active",
+    "bypass_actors": []
   }
 }
