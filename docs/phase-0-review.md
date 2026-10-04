@@ -45,4 +45,14 @@ Squash-only merging, branch cleanup and read-only Actions/fork policies are conf
 
 The decisions and bootstrap approach are accepted. On 2026-10-04 the user authorized this reviewed scope (“You're allowed to continue now.”): create the single initial Phase 0 commit (`chore(phase-0): establish Mandre Launcher foundation`) from reviewed content, push it to main, set/verify default branch, run actual CI, activate/read back full protections and report the outcome. Do not use an unauthorized seed commit. Later phases use small stacked PRs on integration branches.
 
-Publication/review/protection follow-up stays pending in the [task list](../openspec/changes/production-foundation/tasks.md). The change is not archived while those gates are open. Any follow-up edits/commits require authorization and their placement in phase history will be agreed interactively.
+Publication/review/protection follow-up stays pending in the [task list](../openspec/changes/archive/2026-10-04-production-foundation/tasks.md). The change is not archived while those gates are open. Any follow-up edits/commits require authorization and their placement in phase history will be agreed interactively.
+
+## Publication evidence (2026-10-04)
+
+- Approved initial commit: [`b151c36`](https://github.com/mandrecode/launcher/commit/b151c36b280d5583dbc80e41ed95c9efdac4819e), published to `main`; GitHub default branch verified as `main`.
+- [CI run 37162805759](https://github.com/mandrecode/launcher/actions/runs/37162805759): Foundation, OpenSpec and CI Status all succeeded for the published revision.
+- Full ruleset `24433922` activated after CI and read back: strict three-check requirement, PRs, resolved review threads, squash-only merging, deletion/force-push prevention and Copilot review on push. No bypass actors. GitHub accepted the Copilot rule; this does not prove a review has executed or account entitlement.
+- [Applied ruleset readback](github/applied-main-ruleset.json) records server defaults as well as every requested parameter. Visibility remains public; squash-only merge and merged-branch cleanup settings were verified.
+- On 2026-10-04 the user authorized archival and the closing evidence commit/PR (“Go”). All 16 tasks are complete; the two capability specs are synced and the change is archived as `2026-10-04-production-foundation`. These records are delivered through the closeout PR; merge still requires human authorization. Phase 1 has not started.
+
+The earlier sections are the initial prepublication snapshot retained for provenance; this evidence supersedes their pending remote-state descriptions.

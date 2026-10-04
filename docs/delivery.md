@@ -12,13 +12,15 @@ Normal flow:
 
 CI runs for PRs against all branches, including integration/stack bases. Stable required check names come from actual executable jobs. Main requires PRs, up-to-date checks and resolved review threads; no routine bypass. Copilot review is advisory, never a substitute for human commit/merge authorization.
 
-## Initial repository bootstrap
+## Initial repository bootstrap (completed)
 
-An empty repository has no base commit for a PR. Current local branch is `chore/phase-0-foundation` with no commits. Accepted bootstrap approach, still requiring explicit commit/push authorization: after reviewing the complete Phase 0 content and expressly authorizing commit/push, create its single initial commit and push that commit to remote main. Do not invent an empty/bootstrap commit before approval. Select main as default, verify its real CI run, then activate the full main ruleset without bypass actors. Future phases use the normal PR/integration workflow.
+The empty-repository exception was completed on 2026-10-04 with explicit human authorization. The reviewed foundation was published directly to `main` as [`b151c36`](https://github.com/mandrecode/launcher/commit/b151c36b280d5583dbc80e41ed95c9efdac4819e), without a separate seed commit. Main became the default branch, [its first CI run passed](https://github.com/mandrecode/launcher/actions/runs/37162805759), and the full main ruleset was activated and read back with no bypass actors. See [repository policies](github/repository-policy.md) for the verified configuration.
 
-Only deletion/force-push prevention is applied before bootstrap; required PR/status-check enforcement is staged until main and its checks exist. Report this temporary state explicitly. If the user prefers a minimal seed commit plus a Phase 0 PR instead, that requires separate authorization and changes the one-initial-commit history preference.
+Before that initial publication, only deletion/force-push prevention was active; PR and required-check rules were deliberately deferred until main and its checks existed. This is historical bootstrap sequencing, not the current protection state or authorization for another direct push to main.
 
-Publication order: privacy/content review → human commit/push approval → initial main commit → first CI → full protections/readback → OpenSpec completion/review evidence. No signing keys or release workflow in this phase.
+The [Phase 0 closeout PR](https://github.com/mandrecode/launcher/pull/2) delivers the archive and publication evidence under the active protections. It remains subject to human merge authorization. Future phases follow the normal PR/integration workflow above; this bootstrap exception is exhausted.
+
+Completed publication order: privacy/content review → human commit/push approval → initial main commit → first CI → full protections/readback → OpenSpec completion/review evidence. No signing keys or release workflow were introduced in this phase.
 
 ## Conventional naming
 

@@ -1,6 +1,6 @@
 # Mandre Launcher agent instructions
 
-Public Android Home application. Current phase: **0, foundation review**. Read [the review packet](docs/phase-0-review.md) before starting work. There is no Android build or imported vendor source yet; do not claim otherwise.
+Public Android Home application. Current phase: **0, foundation published; closeout PR review**. Read [the review packet](docs/phase-0-review.md) before starting work. There is no Android build or imported vendor source yet; do not claim otherwise.
 
 ## Human control
 
